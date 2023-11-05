@@ -769,7 +769,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     height: auto;
     z-index: 1;
     overflow: hidden;
-    background-image: ('../images/omb-bg');
+    background-image: ('../images/omb-bg.jpg');
     background-position: center center;
     background-size: cover;
 

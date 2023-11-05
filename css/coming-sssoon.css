@@ -735,9 +735,13 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     margin-top: 150px;
     z-index: 3;
 }
-.main .logo.cursive{
-    font-family: 'Grand Hotel',cursive;
+.main .logo.cursive {
+    font-family: 'Grand Hotel', cursive;
     font-size: 82px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Optional, adds an ellipsis (...) to indicate hidden text */
+}
     
 }
 .main .content{
